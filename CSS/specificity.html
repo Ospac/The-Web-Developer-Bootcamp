@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type ="text/css">
+    body{
+      color: red;
+    }
+      ul{
+        color: purple;
+      }
+      li{
+        color: blue;
+      }
+      .highlight{
+        color: yellow;
+      }
+      #first{
+        color: pink;
+      }
+    </style>
+  </head>
+  <!-- Specificity 여러 스타일태그가 하나의 요소를 가리키고 그것이 충돌할때 더 specific한 스타일 태그가 우선적으로 적용됨
+  밑 li태그의 경우 body,ul,li 의 color태그가 충돌하고 있지만 specific한 li태그가 적용됨 -->
+  <body>
+    <p>HELLO!!!!</p>
+    <ul>
+      <li id="first" class="highlight">John</li>
+      <li>Paul</li>
+      <li>Ringo</li>
+      <li class="highlight">George</li>
+    </ul>
+  </body>
+</html>

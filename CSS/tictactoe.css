@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+}
+table{
+  margin: auto auto;
+  background: pink;
+
+}
+td{
+  padding: 50px;
+}
+.center{
+  border-top: white 2px solid;
+  border-bottom: white 2px solid;
+}
+#center{
+  border: white 2px solid;
+}  
+.side{
+  border-left: white 2px solid;
+  border-right: white 2px solid;
+}
